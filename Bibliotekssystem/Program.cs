@@ -51,6 +51,9 @@ public class Program
                     Console.WriteLine("The library now closes, good bye!");
                     loop = false;
                     break;
+                default:
+                    Console.WriteLine("Invalid choice, please try again.");
+                    break;
             }
         }
 
