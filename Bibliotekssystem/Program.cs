@@ -15,6 +15,8 @@ public class Program
         while (loop)
         {
             Console.Clear();
+            Console.WriteLine("==== LIBRARY OF DOOM ====");
+
             Console.WriteLine("1. Add a new book:");
             Console.WriteLine("2. Search after a book:");
             Console.WriteLine("3. Lend out a book:");
